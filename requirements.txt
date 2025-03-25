@@ -8,3 +8,4 @@ matplotlib
 emoji
 python-dotenv
 tweepy
+textblob
