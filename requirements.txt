@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+google-api-python-client
+keras
+tensorflow
+matplotlib
+emoji
