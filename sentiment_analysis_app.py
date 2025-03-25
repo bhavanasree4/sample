@@ -116,7 +116,7 @@ import emoji
 st.title("📊 Kaggle Twitter Dataset Analysis")
 
 # File path (update this with your CSV name)
-dataset_path = "twitter_sentiment_data.csv"  # Replace with the correct name
+dataset_path = "Twitter_Data.csv"  # Replace with the correct name
 df = pd.read_csv(dataset_path)
 
 # Display dataset preview
