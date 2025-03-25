@@ -141,9 +141,9 @@ st.write("🔥 **Sentiment Analysis on Tweets:**")
 
 # Check for the correct column name in your CSV (e.g., 'text' or 'content')
 if 'clean_text' in df.columns:
-    df['Sentiment'] = df['text'].apply(analyze_sentiment)
+    df['Sentiment'] = df['clean_text'].apply(analyze_sentiment)
 elif 'category' in df.columns:
-    df['Sentiment'] = df['content'].apply(analyze_sentiment)
+    df['Sentiment'] = df['category'].apply(analyze_sentiment)
 else:
     st.error("No valid text column found!")
 
