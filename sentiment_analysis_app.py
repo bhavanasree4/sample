@@ -148,5 +148,5 @@ else:
     st.error("No valid text column found!")
 
 # Display results
-st.write(df[['text', 'Sentiment']].head(10))
+st.write(df[['clean_text', 'Sentiment']].head(10))
 
