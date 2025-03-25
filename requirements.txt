@@ -6,3 +6,4 @@ keras
 tensorflow
 matplotlib
 emoji
+python-dotenv
