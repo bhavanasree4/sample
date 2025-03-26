@@ -6,9 +6,11 @@ import streamlit as st
 import re
 import emoji
 import matplotlib.pyplot as plt
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-from keras.models import load_model
+# NEW imports (use TensorFlow's Keras)
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model
+
 
 # Function to retrieve YouTube comments
 def get_youtube_comments(video_id, max_results=100):
