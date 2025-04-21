@@ -63,7 +63,8 @@ def analyze_sentiment(text):
 
 emoji_sentiment = {
     "😀": "Positive", "😂": "Positive", "😍": "Positive", 
-    "😢": "Negative", "😡": "Negative", "😐": "Neutral"
+    "😢": "Negative", "😡": "Negative", "😐": "Neutral",
+    "❤": "Positive", "👏": "Positive", "🎉": "Positive"
 }
 
 def extract_emoji_sentiment(text):
